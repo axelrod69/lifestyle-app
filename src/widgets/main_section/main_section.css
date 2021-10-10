@@ -1,0 +1,47 @@
+.picture_background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 600px;
+    background-color: burlywood;
+}
+
+.shop_now_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 250px;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.shop_now_box > div {
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+}
+
+h3 {
+    font-size: 12px;
+}
+
+button {
+    background-color: red;
+    color: white;
+    padding: 10px;  
+    width: 100px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    box-shadow: 0 2px 8px 0 wheat;
+}
+
+
+
